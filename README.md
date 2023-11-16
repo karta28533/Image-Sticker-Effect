@@ -21,7 +21,7 @@ To set up your environment to run the script, you need to install the required d
 
 ```shell
 run-install.bat
-
+```
 ## Usage
 
 1. Adjust the parameters in `config.json` as desired.
