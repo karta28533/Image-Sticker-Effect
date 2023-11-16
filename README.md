@@ -26,7 +26,11 @@ run-install.bat
 
 1. Adjust the parameters in `config.json` as desired.
 2. Place the original image files into the `input` folder.
-3. Run the script. The processed images will be saved in the `output` folder with a white border added to create a sticker effect.
+3. Run the `run_main.bat`script. The processed images will be saved in the `output` folder with a white border added to create a sticker effect.
+
+```shell
+run_main.bat
+```
 
 The script will process each image found in the `input` folder and save the resulting images in the `output` folder. There's no need to specify individual file paths when running the script, as it's designed to process all images in the `input` folder automatically.
 
