@@ -1,0 +1,9 @@
+{
+    "dilation_kernel_size": [
+        3,
+        3
+    ],
+    "dilation_iterations": 2,
+    "epsilon_factor": 0.006,
+    "border_thickness": 10
+}
