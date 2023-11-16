@@ -25,10 +25,9 @@ run-install.bat
 ## Usage
 
 1. Adjust the parameters in `config.json` as desired.
-2. Run the script with the image path and the output path provided.
+2. Place the original image files into the `input` folder.
+3. Run the script. The processed images will be saved in the `output` folder with a white border added to create a sticker effect.
 
-```python
-add_white_sticker_effect('path_to_your_image.png', 'path_to_save_output_image.png')
-```
+The script will process each image found in the `input` folder and save the resulting images in the `output` folder. There's no need to specify individual file paths when running the script, as it's designed to process all images in the `input` folder automatically.
 
 The script will read the image, process it according to the parameters, and save the output image with a smooth white border.
